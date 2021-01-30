@@ -2,15 +2,18 @@ Package: montyhall
 Title: Recreating the Monty Hall Problem Game
 Version: 0.0.0.9000
 Authors@R: 
-    person("Danica",
-           "Burwell",
+    person(given = "Danica",
+           family = "Burwell",
            role = c("aut", "cre"),
-           email = "danica.burwell@outlook.com" )
-Author: Danica Burwell [aut,cre]
+           email = "danica.burwell@outlook.com",
+	comment = c(ORCID = "YOUR-ORCID-ID") )
 Description:  The game setup is designed after the TV show "Let's Make a Deal", where a player chooses one of three doors in the hope of revealing a car and not a goat. Once the player select's their first door, the game host opens another door, revealing a goat. Then the player is given the opportunity to stick with their original door selection or swtich to the other unopened door. It has been debated as to whether it is more adventageous to switch doors or to stay with the original selection. This simulation allows us to see the odds of winning based on either strategy.
+Depends:
+	Dplyr
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+
