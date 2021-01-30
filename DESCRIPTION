@@ -7,7 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "danica.burwell@outlook.com",
 	comment = c(ORCID = "YOUR-ORCID-ID") )
-Description:  The game setup is designed after the TV show "Let's Make a Deal", where a player chooses one of three doors in the hope of revealing a car and not a goat. Once the player select's their first door, the game host opens another door, revealing a goat. Then the player is given the opportunity to stick with their original door selection or swtich to the other unopened door. It has been debated as to whether it is more adventageous to switch doors or to stay with the original selection. This simulation allows us to see the odds of winning based on either strategy.
+Description:  The game setup is designed after the TV show "Let's Make a Deal", where a player chooses one of three doors in the hope of revealing a car and not a goat. Once the player selects their first door, the game host opens another door, revealing a goat. Then the player is given the opportunity to stick with their original door selection or switch to the other unopened door. It has been debated as to whether it is more advantageous to switch doors or to stay with the original selection. This simulation allows us to see the odds of winning based on either strategy.
 Depends:
 	Dplyr
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
